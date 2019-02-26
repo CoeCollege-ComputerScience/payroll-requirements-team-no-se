@@ -74,19 +74,35 @@
 
 
 ## Requirements
+* The Software needs to keep track of and calculate payroll for the customer's employees
+* Development must remain within a specified Budget
+* Development must stay within the allotted time limit
+* The Software should handle US based languages, locations, and currencies
+* The Software will be limited to desktop computer style interface and compatibility
+* The Software should maintain the customer's and their employees' security
+* Software will be written in C
+* Software will run through a simple command-line window
+* Software will be compiled with a MakeFile
+* Software will follow all laws, regulations, and rules of the United statements
+* Software must be capable of being audited
+* Software must retain employee payroll data for an undefined period of time
+* Data must be able to be input by specified employees
+* Software must have different access levels and user specifications
+* Software must build W2's for employees
+
+### Non-Functional
+* A standard customer business format W2 and other tax documents will be used for payroll processing
+* Payroll Information must be clear, concise, and user friendly (Data Visualization)
+* Software will be aesthetically pleasing and user-friendly
+* The software will contain menus for user interactions
+* The software will output legible and useful payroll information
+* The software will process information within 20ms (?)
 *
 
-
-
-
-
-
-
-
-
-
-
-
+### Implementation
+* Data will be input or imported by the customer to update necessary Information
+* Maintenance will be done by the customer/Maintenance will be done by us
+* Information collected and processed by the Software will be stored securely and indefinitely
 
 ## MoSCoW
 ### Must
