@@ -30,6 +30,7 @@
 
 ### Functional
 
+
 ### Non-Functional
 * A standard customer business format W2 and other tax documents will be used for payroll processing
 * Payroll Information must be clear, concise, and user friendly (Data Visualization)
@@ -46,3 +47,4 @@
 * Maintenance will be done by the customer/Maintenance will be done by us
 * Information collected and processed by the Software will be stored securely and indefinitely
 * Data and Software will be located in the customer's on-site server (?)
+
