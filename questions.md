@@ -52,7 +52,7 @@
 
 
 ### Implementation
-#### Temporary features to implement (migration, scripts, etc)
+#### Features related to implementation of the software (migration, scripts, etc)
 * Where does the data come from?
 * Will maintenance be handled by us, or the customer?
 * What scripts should be run when payroll is accessed?
