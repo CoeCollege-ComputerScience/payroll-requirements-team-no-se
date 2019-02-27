@@ -7,13 +7,6 @@
 
 ### Business
 #### What the customer hopes to achieve with project
-* What's the Budget?
-* What is your time frame/Ideal date of completion?
-* How many people does the system need to service?
-* What are the most important functions needed as soon as possible?
-* What currencies does the business use? (Dollars USD)
-* Are there laws or regulations that need to be followed? If so, what are they?
-* Countries; Are there branches in different countries? (United States)
 * The budget is within $100,000
 * The goal of the completion is in 6 months
 * 1000 people will be using the system for different purposes (to access their own data/to access data for entire company as their job [HR])
@@ -43,10 +36,13 @@
 * Software will be aesthetically pleasing and user-friendly
 * The software will contain menus for user interactions
 * The software will output legible and useful payroll information
-* The software will process information within 20ms (?)
-*
+* The software will process information within X milliseconds (?)
+* The software will process X accounts in X minutes (?)
+* Data entry will be simple, easy, and return no errors
 
 ### Implementation
+* Software will be written and compiled in C and Command-Line
 * Data will be input or imported by the customer to update necessary Information
 * Maintenance will be done by the customer/Maintenance will be done by us
 * Information collected and processed by the Software will be stored securely and indefinitely
+* Data and Software will be located in the customer's on-site server (?)
