@@ -1,5 +1,7 @@
 # Payroll System Requirements
-#### Terrence, Kei, Julieon
+#### Kei: Business & User/Stakeholders
+#### Terrence: Functional
+#### Julieon: Non-Functional & Implementation
 
 ## Requirement Types
 
@@ -12,83 +14,28 @@
 * What currencies does the business use? (Dollars USD)
 * Are there laws or regulations that need to be followed? If so, what are they?
 * Countries; Are there branches in different countries? (United States)
+* The budget is within $100,000
+* The goal of the completion is in 6 months
+* 1000 people will be using the system for different purposes (to access their own data/to access data for entire company as their job [HR])
+* The most important functions include ??
+* The business uses Dollars USD
+* We expect that the organization is only based on the United States
+* No special regulations at the beginning, as it is based on the United States only. However, we might want to add functions to let them add regulations for individual employee (like international employees working in the US) or the whole organization as new things come up
 
 ### User/Stakeholders
 #### How the project will be used by end users
-* What human languages does the program need to be in?
-* What types of features are desired for user accessibility?
-* How do users access the system, website, app or other?
+* The program/system will be all in English
+* Menu page should be very simple and easy to access (for user accessibility)
+* Website will be the first project, but if the project is a success and the customers want to move forward, we will work on an application version as a second project so that individual employees can easily .
 * How would the accounting department want to enter data and the employee?
-* What is the company president going to want to see from the application?
-* What would he want to see for detail if he wanted to look at his payment history?
-
+* The software will have a page where the accounting department/anyone who is allowed to change data can only access and enter data. We need to get a whole list of data.
+* We need to have a separate page for individual employees
+* The company president/upper management will want to see detailed, easily accessed application that does not require complicated skills.
+* On the page, there will be a page for the menu (a list of things that they can see, like payment history)
+* For example, payment history will include a list of price that they have paid/earned, date, tax, etc.
+* There should be a function to create .pdf file of the page
 
 ### Functional
-#### Detailed statements of the projects desired capabilities
-* What programming language does the program need to be in?
-* Are calculations necessary, or is data just to be presented?
-* Should the program be capable of retaining important payroll documentation for future viewing?
-* What types of security features are necessary?
-* What different types of users are able to access the system, and what permissions do they have?
-* How does the system handle overtime & bonuses?
-* Will the system handle paycheck exceptions (early paycheck given out during emergencies, etc)?
-* What platforms is the program going to be used on? (Mobile phones/desktops, app/website etc.)
-* What type of employees does the system need to accommodate for (full-time, part-time, etc)?
-* What data does the program have access to?
-* How frequently are the employees paid?
-* How and should the system handle employee suspensions?
-* What should the system do with old data (either from old employees, old pay cycles, etc)?
-* Any retirement plan?
-* What should the reporting and auditing process entail?
-
-### Non-Functional
-#### Are statements about quality of application (performance, etc)
-* How do you want the timesheet to look?
-* How do you payroll information presented? (Pie-charts, tables, etc)
-* What menus do we want to include?
-* What color scheme do we want?
-* Should the payroll open in a web page or through a program?
-* When do have access to payroll information?
-
-
-### Implementation
-#### Temporary features to implement (migration, scripts, etc)
-* Where does the data come from?
-* Will maintenance be handled by us, or the customer?
-* What scripts should be run when payroll is accessed?
-* How long should the company retain records? Where will it be backed up?
-
-## Questions
-### Who is going to be using the software? (Who)
-
-### What does the customer need the application to do? (What)
-
-### When does the customer need the application?(When)
-
-### Where is it going to be used? (Where)
-
-### Why is it needed? (Why)
-
-### Does the customer have novel ways of doing things that may be good to mimic in the application? (How)
-
-
-
-## Requirements
-* The Software needs to keep track of and calculate payroll for the customer's employees
-* Development must remain within a specified Budget
-* Development must stay within the allotted time limit
-* The Software should handle US based languages, locations, and currencies
-* The Software will be limited to desktop computer style interface and compatibility
-* The Software should maintain the customer's and their employees' security
-* Software will be written in C
-* Software will run through a simple command-line window
-* Software will be compiled with a MakeFile
-* Software will follow all laws, regulations, and rules of the United statements
-* Software must be capable of being audited
-* Software must retain employee payroll data for an undefined period of time
-* Data must be able to be input by specified employees
-* Software must have different access levels and user specifications
-* Software must build W2's for employees
 
 ### Non-Functional
 * A standard customer business format W2 and other tax documents will be used for payroll processing
@@ -103,25 +50,3 @@
 * Data will be input or imported by the customer to update necessary Information
 * Maintenance will be done by the customer/Maintenance will be done by us
 * Information collected and processed by the Software will be stored securely and indefinitely
-
-## MoSCoW
-### Must
-
-### Should
-
-### Could
-
-### Won't
-
-
-
-
-## Common requirements
-* Screens - what screens are needed
-* Menus - what menus will screens have
-* Navigation
-* Work flow - how does data flow through system
-* Login User types
-* Audit tracking and history
-* Archiving / Backup
-* Configuration information
