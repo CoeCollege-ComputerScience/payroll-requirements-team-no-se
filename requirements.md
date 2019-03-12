@@ -27,3 +27,24 @@
 * On the page, there will be a page for the menu (a list of things that they can see, like payment history)
 * For example, payment history will include a list of price that they have paid/earned, date, tax, etc.
 * There should be a function to create .pdf file of the page
+
+### Functional
+
+
+### Non-Functional
+* A standard customer business format W2 and other tax documents will be used for payroll processing
+* Payroll Information must be clear, concise, and user friendly (Data Visualization)
+* Software will be aesthetically pleasing and user-friendly
+* The software will contain menus for user interactions
+* The software will output legible and useful payroll information
+* The software will process information within X milliseconds (?)
+* The software will process X accounts in X minutes (?)
+* Data entry will be simple, easy, and return no errors
+
+### Implementation
+* Software will be written and compiled in C and Command-Line
+* Data will be input or imported by the customer to update necessary Information
+* Maintenance will be done by the customer/Maintenance will be done by us
+* Information collected and processed by the Software will be stored securely and indefinitely
+* Data and Software will be located in the customer's on-site server (?)
+
