@@ -1,4 +1,4 @@
-#Payroll System Priorities
+# Payroll System Priorities
 
 #### Kei, Terrence, Julieon, Gabriel
 
