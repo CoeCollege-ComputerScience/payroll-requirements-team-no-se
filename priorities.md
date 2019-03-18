@@ -17,7 +17,11 @@
     * Government regulations may include anything from tax rates, to record structures, to calculation methods, and while some of these things may be provided by the customer (such as the tax rates), there may be different things that need to be included depending on the country. Certain deductions, credits, and employee requirements differ depending on the country, and these must be taken into account when calculating payroll.
 
 * The program must be in the English Language
+    * All of the prompts and relevant data must be stored stored in English because all of the employees will speak English. I the prompts were in other languages and not English, instructions would not be properly followed.
+    * Properly translating all of the prompts would take unnecessary time and money.
+
 * The program must allow for the accounting team to input payroll records per employee
+    * Without access, via the payroll software, to the underlying database, the customer would have no way of adjusting old date or inputing new employees to the system.
 
 * Calculations must be made for salary, net pay, federal taxes, state taxes, medical contributions, Retirement Contributions, Deductions, etc
     * First, these calculations are made individually. Each employee should be able to see their final net pay so that they can see their deductions.
@@ -44,8 +48,13 @@
     * While the program is being compiled through command line, the system could benefit from having a menu that displays current records or commands or navigation to make it more accessible to users.
 
 * Program should be able to calculate employee pay while including bonuses, overtime, and other income modifications
+    * The customer would benefit from the software automatically calculating employee pay while including bonuses, overtime, and other income modifications, however, the customers accounting department could do it by hand if need be.
+
 * A standard customer business format W2 and other tax documents should be used for payroll processing
+    * While it would be convenient for the software to use standard tax formatting, as long as the data is stored in the system, there is no need to spend extra time and energy on optional data formatting.
+
 * Program should have some sort of data checking mechanism for bad payroll records or entries
+    * It is assumed that the users of this software understand how payroll and accounting works so it is not urgent that data checking procedures are implemented.
 
 ### Could
 
@@ -56,10 +65,10 @@
     * Only the total salaryies, federal/state taxes, medical contributions, etc. are required by accounting department and the CFO for the first release, but the reports of the details can be added in a future release.
 
 * Employee paycheck frequency could be calculated for individual users (Right now the accounting team enters this data when necessary)
-    * This release only focuses on the use of the accounting department and the CFO. If necessary, the use for indivisual employees will be added in the future release. 
+    * This release only focuses on the use of the accounting department and the CFO. If necessary, the use for indivisual employees will be added in the future release.
 
 * The software could process information within the customers specifications
-    * This is specifying that the program should be able to return or process information such as payroll or a record lookup within a resonable time and accurately return the information to the user within seconds. 
+    * This is specifying that the program should be able to return or process information such as payroll or a record lookup within a resonable time and accurately return the information to the user within seconds.
 
 * Individual Employees should have a read only access to view their own payroll records
     * The payroll program is specifically accessed by accounting and CFO, so allowing employees to view their own payroll is not completely necessary, however, it would reflect normal payroll systems that allow employees more limited access in a read-only fashion.
