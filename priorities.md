@@ -27,16 +27,21 @@
     * The input and output payroll data needs to be retained by the customer, and the system only processes them and doesn't store them itself. If the customers want the system to store the data, it can be added in a future release.
 
 * The payroll system must run on 64bit desktop computers (Windows/Macs)
-* The system must track all employees, including part-time, full-time, etc
+    * Creating and running our program on a 64-bit Operating System will give the application access to more memory and allow our program to run and process a little faster than if it was on a 32-bit operation system.
 
+* The system must track/classify all employees, including part-time, full-time, etc
+    * This is crucial to the company as failing to classify the company's employees could lead to serious harm for the company legally and finacially as different rules and regulations apply to different employees based on their classification.
 
 ### Should
 
 * Menu page should be very simple and easy to access (for user accessibility)
-  * While user accessibility is important, the program should function first, and unless requested specifically by the customer to be as user friendly as possible on the first release, it can wait until the second one.
+    * While user accessibility is important, the program should function first, and unless requested specifically by the customer to be as user friendly as possible on the first release, it can wait until the second one.
 
 * On the page, there should be a page for the menu (a list of things that they can see, like payment history)
- * While the program is being compiled through command line, the system could benefit from having a menu that displays current records or commands or navigation to make it more accessible to users.
+    * While the program is being compiled through command line, the system could benefit from having a menu that displays current records or commands or navigation to make it more accessible to users.
+
+* On the page, there should be a page for the menu (a list of things that they can see, like payment history)
+    * While the program is being compiled through command line, the system could benefit from having a menu that displays current records or commands or navigation to make it more accessible to users.
 
 * Program should be able to calculate employee pay while including bonuses, overtime, and other income modifications
 * A standard customer business format W2 and other tax documents should be used for payroll processing
@@ -54,10 +59,15 @@
     * This release only focuses on the use of the accounting department and the CFO. If necessary, the use for indivisual employees will be added in the future release. 
 
 * The software could process information within the customers specifications
+    * This is specifying that the program should be able to return or process information such as payroll or a record lookup within a resonable time and accurately return the information to the user within seconds. 
+
 * Individual Employees should have a read only access to view their own payroll records
- * The payroll program is specifically accessed by accounting and CFO, so allowing employees to view their own payroll is not completely necessary, however, it would reflect normal payroll systems that allow employees more limited access in a read-only fashion.
+    * The payroll program is specifically accessed by accounting and CFO, so allowing employees to view their own payroll is not completely necessary, however, it would reflect normal payroll systems that allow employees more limited access in a read-only fashion.
 
 ### Won't
 
 * The program could create a pdf. file view of the payroll record that they view
+    * This is here because we felt that this is more of a preference for the user as in some cases a pdf file might not be ideal so we won't make this feature into our initial build out of the program unless the customer request it.
+
 * Program runs on mobile devices
+    * Due to the severity of this program and the information it will contain puts this company at a high security risk if we allow it to be accessed from a users mobile device and therefore we won't make this program accessible from a mobile device.
