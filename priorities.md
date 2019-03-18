@@ -32,11 +32,13 @@
 * The system must track/classify all employees, including part-time, full-time, etc
     * This is crucial to the company as failing to classify the company's employees could lead to serious harm for the company legally and finacially as different rules and regulations apply to different employees based on their classification.
 
-
 ### Should
 
 * Menu page should be very simple and easy to access (for user accessibility)
     * While user accessibility is important, the program should function first, and unless requested specifically by the customer to be as user friendly as possible on the first release, it can wait until the second one.
+
+* On the page, there should be a page for the menu (a list of things that they can see, like payment history)
+    * While the program is being compiled through command line, the system could benefit from having a menu that displays current records or commands or navigation to make it more accessible to users.
 
 * On the page, there should be a page for the menu (a list of things that they can see, like payment history)
     * While the program is being compiled through command line, the system could benefit from having a menu that displays current records or commands or navigation to make it more accessible to users.
