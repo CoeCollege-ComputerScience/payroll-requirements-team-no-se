@@ -17,8 +17,11 @@
     * Government regulations may include anything from tax rates, to record structures, to calculation methods, and while some of these things may be provided by the customer (such as the tax rates), there may be different things that need to be included depending on the country. Certain deductions, credits, and employee requirements differ depending on the country, and these must be taken into account when calculating payroll.
 
 * The program is in the English Language (Business)
+    * All of the prompts and relevant data must be stored stored in English because all of the employees will speak English. I the prompts were in other languages and not English, instructions would not be properly followed.
+    * Properly translating all of the prompts would take unnecessary time and money.
 
-* The program allows for the accounting team to input payroll records per employee (Functional)
+* The program must allow for the accounting team to input payroll records per employee (Functional)
+    * Without access, via the payroll software, to the underlying database, the customer would have no way of adjusting old date or inputing new employees to the system.
 
 * Calculations are made for salary, net pay, federal taxes, state taxes, medical contributions, Retirement Contributions, Deductions, etc. (Functional)
     * First, these calculations are made individually. Each employee should be able to see their final net pay so that they can see their deductions.
@@ -39,10 +42,13 @@
     * While the program is being compiled through command line, the system could benefit from having a menu that displays current records or commands or navigation to make it more accessible to users.
 
 * Program calculates employee pay while including bonuses, overtime, and other special income modifications (Functional)
+    * The customer would benefit from the software automatically calculating employee pay while including bonuses, overtime, and other income modifications, however, the customers accounting department could do it by hand if need be.
 
 * A standard customer business format W2 and other tax documents to be used for payroll processing (Functional)
+    * While it would be convenient for the software to use standard tax formatting, as long as the data is stored in the system, there is no need to spend extra time and energy on optional data formatting.
 
 * Program includes data checking mechanism for bad payroll records or entries (Implementation)
+    * It is assumed that the users of this software understand how payroll and accounting works so it is not urgent that data checking procedures are implemented.
 
 ### Could
 
