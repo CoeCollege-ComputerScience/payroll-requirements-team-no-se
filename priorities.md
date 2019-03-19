@@ -14,8 +14,7 @@
 
 * Program follows Government regulations (Business)
     * Government regulations are extremely important when money is handled. The customer will always require the first release to be up to standards of regulation.
-    * Government regulations may include the one dealing with tax rates, record structures, calculation methods, etc. Some data may need to be provided by the customer/indisual employees. 
-    * Certain deductions, credits, and employee requirements may differ for each employee, and these must be taken into account when calculating payroll.
+    * The program will follow US government regulations, including implementation of federal and state tax returns, building of accurate financial record structures, and proper calculation methods of finances, including deductions, credits, and other considerations.
 
 * The program is in the English Language (Business)
     * All of the prompts and relevant data must be handled and stored in English because all of the employees will speak English. If the prompts were in other languages and not English, instructions would not be properly followed.
@@ -32,8 +31,7 @@
     * The input and output payroll data needs to be retained by the customer, and the system only processes them and doesn't store them itself. If the customers want the system to store the data, it can be added in a future release.
 
 * The payroll system runs on 64bit desktop Windows and Macintosh computers (Functional)
-    * 
-    * Creating and running our program on a 64-bit Operating System will give the application access to large memory. 32-bit operation system may not be able to process the large amount of data.
+   * 64 bit Operating Systems allows for 16 general purpose registers instead of 8 as well as additional SSE registers, expanding memory allocation capabilities. The system also provides more than 4 gb of RAM for processing and 64bit data types.
 
 * The system tracks/classifies all employees, including part-time, full-time, salaried, etc. (Functional)
     * This is crucial to the company as failing to classify the company's employees could lead to serious harm for the company legally and financially as different rules and regulations apply to different employees based on their classification.
