@@ -20,7 +20,6 @@
 * The program/system will be all in English
 * Menu page should be very simple and easy to access (for user accessibility)
 * Website will be the first project, but if the project is a success and the customers want to move forward, we will work on an application version as a second project so that individual employees can easily .
-* How would the accounting department want to enter data and the employee?
 * The software will have a page where the accounting department/anyone who is allowed to change data can only access and enter data. We need to get a whole list of data.
 * We need to have a separate page for individual employees
 * The company president/upper management will want to see detailed, easily accessed application that does not require complicated skills.
@@ -30,16 +29,14 @@
 
 ### Functional
 * Calculations are made for net pay, federal taxes, state taxes, medical contributions, Retirement Contributions, Deductions, etc.
-* Payroll and Tax Documentation will be retained by the customer
-* Tax Documents will be stored for the user to access
 * Calculate employee pay while including bonuses, overtime, and other income modifications
-* All payroll records will be securely stored by the customer, and data access will be limited to certain users for certain data using user accounts and passwords
+* All payroll records and tax documentation will be securely retained by the customer
+* Access to payroll data will be limited to specific users for certain data using user accounts and passwords
 * Paycheck Exceptions will be handled
 * The payroll system will run on 64bit desktop computers
-* The system will track all employees, including part-time, full-time, etc
+* The system will track all employees, including part-time, full-time, etc.
 * The system will have access to  data specified by the customer
 * Employee paycheck frequency will by calculated for individual users
-* Old data will be retained by the customer
 * The system will be easily able to be audited and reviewed when necessary
 
 ### Non-Functional
@@ -54,7 +51,5 @@
 
 ### Implementation
 * Software will be written and compiled in C and Command-Line
-* Data will be input or imported by the customer to update necessary Information
 * Maintenance will be done by the customer/Maintenance will be done by us
 * Information collected and processed by the Software will be stored securely and indefinitely
-* Data and Software will be located in the customer's on-site server (?)
