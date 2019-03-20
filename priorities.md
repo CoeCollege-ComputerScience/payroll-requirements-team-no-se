@@ -21,11 +21,11 @@
     * Properly translating all of the prompts would take unnecessary time and money. If it is necessary, it will be handled in future releases.
 
 * The program must allow for the accounting team to input payroll records per employee (Functional)
-    * This is the base functionality of the payroll system, as is required before the system is even able to calculate payroll.
+    * This is a base functionality of the payroll system, and is required to bring in data for calculation of the payroll, which is not possible otherwise.
     * Only the accounting team would be capable of inputting/modifying the database. The individual employees would not be able to adjust old data, input new employees to the system, or make changes to the underlying database, without access.
 
 * Calculations are made for salary, net pay, federal taxes, state taxes, medical contributions, Retirement Contributions, Deductions, etc. (Functional)
-    * The purpose of the system is to calculate payroll, which means these are necessary to implement on the first release.
+    * The main purpose specified by the customer for this system is to process and calculate payroll records and data, so the calculations are effectively the purpose the program, and cannot be released without this functionality.
     * Accounting department and the CFO should be able to see the total salaries, federal/state taxes, medical contributions, etc. so that they know how much total is being paid and how much they have to send to government/state for taxes, insurance company for medical etc.
 
 * Payroll and Tax Documentation to be retained by the customer while the payroll system processes and outputs these documents (Functional)
