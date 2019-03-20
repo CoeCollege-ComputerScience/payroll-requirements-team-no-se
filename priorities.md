@@ -21,21 +21,24 @@
     * Properly translating all of the prompts would take unnecessary time and money. If it is necessary, it will be handled in future releases.
 
 * The program must allow for the accounting team to input payroll records per employee (Functional)
-    * Only the accounting team would be capable of inputting/modifying the database. The indivisual employees would not be able to adjust old data, input new employees to the system, or make changes to the underlying database, without access,.
+    * This is the base functionality of the payroll system, as is required before the system is even able to calculate payroll.
+    * Only the accounting team would be capable of inputting/modifying the database. The individual employees would not be able to adjust old data, input new employees to the system, or make changes to the underlying database, without access.
 
 * Calculations are made for salary, net pay, federal taxes, state taxes, medical contributions, Retirement Contributions, Deductions, etc. (Functional)
-    * First, these calculations are made individually. Each employee should be able to see their final net pay so that they can see their deductions.
+    * The purpose of the system is to calculate payroll, which means these are necessary to implement on the first release.
     * Accounting department and the CFO should be able to see the total salaries, federal/state taxes, medical contributions, etc. so that they know how much total is being paid and how much they have to send to government/state for taxes, insurance company for medical etc.
 
 * Payroll and Tax Documentation to be retained by the customer while the payroll system processes and outputs these documents (Functional)
-    * The input and output payroll data needs to be retained by the customer, and the system only processes them and doesn't store them itself. If the customers want the system to store the data, it can be added in a future release.
+    * The system requires that payroll data be input and output in order to function.
+    * The system will access customer employee records and data, and output necessary calculations in a format that can be accessed by the user and the system again. This input and output payroll data will be retained by the customer, while the system will process it.
 
-* The payroll system runs on 64bit desktop Windows and Macintosh computers (Functional)
-   * 64 bit Operating Systems allows for 16 general purpose registers instead of 8 as well as additional SSE registers, expanding memory allocation capabilities. The system also provides more than 4 gb of RAM for processing and 64bit data types.
+* The payroll system runs on 64bit desktop Windows and Macintosh computers (Functional/Implementation)
+    * The system must be specified to run on specific systems to minimize range of the system, and make sure that all functions of the program will work properly on specified systems.
+    * 64 bit Operating Systems allows for 16 general purpose registers instead of 8 as well as additional SSE registers, expanding memory allocation capabilities. The system also provides more than 4 GB of RAM for processing and 64bit data types.
 
 * The system tracks/classifies all employees, including part-time, full-time, salaried, etc. (Functional)
-    * This is crucial to the company as failing to classify the company's employees could lead to serious harm for the company legally and financially as different rules and regulations apply to different employees based on their classification.
-
+    * This is crucial to the company, as failing to classify the company's employees could lead to serious harm for the company legally and financially as different rules and regulations apply to different employees based on their classification.
+    * The system will calculate payroll depending on the specified employee's classification, and determine benefits, taxes, deductions, and so on.
 ### Should
 
 * Visualization of the payroll data and system navigation will be presented in a menu (Non-Functional)
