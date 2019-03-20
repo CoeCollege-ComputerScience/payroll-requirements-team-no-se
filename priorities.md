@@ -4,9 +4,29 @@
 
 ### MUST
 
+* The payroll system runs on 64bit desktop Windows and Macintosh computers (Functional/Implementation)
+    * The system must be specified to run on specific systems to minimize range of the system, and make sure that all functions of the program will work properly on specified systems.
+    * 64 bit Operating Systems allows for 16 general purpose registers instead of 8 as well as additional SSE registers, expanding memory allocation capabilities. The system also provides more than 4 GB of RAM for processing and 64bit data types.
+  
+* Calculations are made for salary, net pay, federal taxes, state taxes, medical contributions, Retirement Contributions, Deductions, etc. (Functional)
+    * The main purpose specified by the customer for this system is to process and calculate payroll records and data, so the calculations are effectively the purpose the program, and cannot be released without this functionality.
+    * Accounting department and the CFO should be able to see the total salaries, federal/state taxes, medical contributions, etc. so that they know how much total is being paid and how much they have to send to government/state for taxes, insurance company for medical etc.
+
+* The system tracks/classifies all employees, including part-time, full-time, salaried, etc. (Functional)
+    * This is crucial to the company, as failing to classify the company's employees could lead to serious harm for the company legally and financially as different rules and regulations apply to different employees based on their classification.
+    * The system will calculate payroll depending on the specified employee's classification, and determine benefits, taxes, deductions, and so on.
+
 * The Accounting team and CFO have specified functionality and access to this program (Business)
     * It is required to define who has access and what type of functionality is necessary on the first release for the users in order for the payroll system to even ship within basic specifications.
     * This payroll program will be used specifically by accountants and the CFO, with separate functionality for each, such as data entry, auditing and review, data recording, and data output for use in other systems. All functions and systems of the program assume access by these specified users, and define what needs to be calculated, implemented, and output.
+
+* The program must allow for the accounting team to input payroll records per employee (Functional)
+    * This is a base functionality of the payroll system, and is required to bring in data for calculation of the payroll, which is not possible otherwise.
+    * Only the accounting team would be capable of inputting/modifying the database. The individual employees would not be able to adjust old data, input new employees to the system, or make changes to the underlying database, without access.
+
+* Payroll and Tax Documentation to be retained by the customer while the payroll system processes and outputs these documents (Functional)
+    * The system requires that payroll data be input and output in order to function.
+    * The system will access customer employee records and data, and output necessary calculations in a format that can be accessed by the user and the system again. This input and output payroll data will be retained by the customer, while the system will process it.
 
 * The program uses US Dollars as the currency to be calculated (Business)
     * This is a basic requirement of the program that defines the data type being handled, and the location that the program is being used in, which will specify what needs to be input, output, and implemented.
@@ -19,22 +39,6 @@
 * The program is in the English Language (Business)
     * All of the prompts and relevant data must be handled and stored in English because all of the employees will speak English. If the prompts were in other languages and not English, instructions would not be properly followed.
     * Properly translating all of the prompts would take unnecessary time and money. If it is necessary, it will be handled in future releases.
-
-* The program must allow for the accounting team to input payroll records per employee (Functional)
-    * Only the accounting team would be capable of inputting/modifying the database. The indivisual employees would not be able to adjust old data, input new employees to the system, or make changes to the underlying database, without access,.
-
-* Calculations are made for salary, net pay, federal taxes, state taxes, medical contributions, Retirement Contributions, Deductions, etc. (Functional)
-    * First, these calculations are made individually. Each employee should be able to see their final net pay so that they can see their deductions.
-    * Accounting department and the CFO should be able to see the total salaries, federal/state taxes, medical contributions, etc. so that they know how much total is being paid and how much they have to send to government/state for taxes, insurance company for medical etc.
-
-* Payroll and Tax Documentation to be retained by the customer while the payroll system processes and outputs these documents (Functional)
-    * The input and output payroll data needs to be retained by the customer, and the system only processes them and doesn't store them itself. If the customers want the system to store the data, it can be added in a future release.
-
-* The payroll system runs on 64bit desktop Windows and Macintosh computers (Functional)
-   * 64 bit Operating Systems allows for 16 general purpose registers instead of 8 as well as additional SSE registers, expanding memory allocation capabilities. The system also provides more than 4 gb of RAM for processing and 64bit data types.
-
-* The system tracks/classifies all employees, including part-time, full-time, salaried, etc. (Functional)
-    * This is crucial to the company as failing to classify the company's employees could lead to serious harm for the company legally and financially as different rules and regulations apply to different employees based on their classification.
 
 ### Should
 
